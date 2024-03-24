@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:xournalpp_mobile/pages/notebook.dart';
+import 'package:xournalpp_mobile/pages/canvas_page.dart';
 
 
 class MainDrawer extends StatefulWidget {
@@ -103,7 +103,7 @@ class _MainDrawerState extends State<MainDrawer> {
                                     Navigator.push(
                                         context,
                                         MaterialPageRoute(builder: (context) =>
-                                            Notebook(name: controller.text))
+                                            CanvasPage(name: controller.text))
                                     );
                                   }
                                 }

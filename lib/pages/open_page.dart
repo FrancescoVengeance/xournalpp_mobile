@@ -16,7 +16,7 @@ class _OpenPageState extends State<OpenPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: MainDrawer(),
+      drawer: const MainDrawer(),
       appBar: AppBar(title: Text(widget.title)),
       body: GridView.count(
         crossAxisCount: 4,
