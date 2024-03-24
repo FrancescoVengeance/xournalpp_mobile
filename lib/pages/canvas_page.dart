@@ -1,6 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:xournalpp_mobile/widgets/content_listener.dart';
 import 'package:xournalpp_mobile/widgets/main_drawer.dart';
 
 import '../widgets/toolbar.dart';
@@ -23,7 +24,11 @@ class CanvasPage extends StatelessWidget {
       ),
       drawer: MainDrawer(),
       body: Center(
-        child: Text("Canvas"),
+        child: ContentListener(
+          onNewContent: (newContent) {
+
+          },
+        ),
       ),
     );
   }
