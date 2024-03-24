@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'pages/OpenPage.dart';
+import 'pages/open_page.dart';
 
 void main() {
   runApp(const XournalppMobile());

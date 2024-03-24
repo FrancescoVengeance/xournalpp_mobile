@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Notebook extends StatelessWidget {
-  const Notebook({super.key});
+class NotebookCard extends StatelessWidget {
+  const NotebookCard({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class Notebook extends StatelessWidget {
           ),
           Container(
             margin: const EdgeInsets.all(10),
-              child: const Text("Appunti di statistica")
+            child: const Text("Appunti di statistica")
           )
         ],
       ),

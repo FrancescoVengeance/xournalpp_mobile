@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:xournalpp_mobile/widgets/MainDrawer.dart';
-import 'package:xournalpp_mobile/widgets/Notebook.dart';
+import 'package:xournalpp_mobile/widgets/main_drawer.dart';
+import 'package:xournalpp_mobile/widgets/notebook_card.dart';
 
 class OpenPage extends StatefulWidget {
   const OpenPage({super.key});
@@ -23,18 +23,18 @@ class _OpenPageState extends State<OpenPage> {
         crossAxisSpacing: 20.0,
         mainAxisSpacing: 20.0,
         children: const [
-          Notebook(),
-          Notebook(),
-          Notebook(),
-          Notebook(),
-          Notebook(),
-          Notebook(),
-          Notebook(),
-          Notebook(),
-          Notebook(),
-          Notebook(),
-          Notebook(),
-          Notebook(),
+          NotebookCard(),
+          NotebookCard(),
+          NotebookCard(),
+          NotebookCard(),
+          NotebookCard(),
+          NotebookCard(),
+          NotebookCard(),
+          NotebookCard(),
+          NotebookCard(),
+          NotebookCard(),
+          NotebookCard(),
+          NotebookCard(),
         ],
       ),
     );
